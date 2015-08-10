@@ -1,0 +1,28 @@
+application: videndaprofile
+version: 1
+runtime: php55
+api_version: 1
+threadsafe: yes
+
+handlers:
+
+- url: /
+  static_files: public/index.html
+  upload: public/index.html
+
+- url: /mvp.html
+  static_files: public/mvp.html
+  upload: public/mvp.html
+
+- url: /survey_complete.html
+  static_files: public/survey_complete.html
+  upload: public/survey_complete.html
+
+- url: /(.*\.(gif|png|jpg|ico|bmp|css|otf|eot|svg|ttf|woff|js))
+  static_files: public/\1
+  upload: public/(.*\.(gif|png|jpg|ico|bmp|css|otf|eot|svg|ttf|woff|js))
+
+- url: /.*
+  script: public/email-form/contact-form-handler.php
+
+

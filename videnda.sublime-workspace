@@ -1,0 +1,395 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"bottom",
+				"margin-bottom"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"lsit",
+				"list-style-type"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"fina",
+				"final_phrase"
+			],
+			[
+				"to",
+				"to_s"
+			],
+			[
+				"lett",
+				"letter_to_num"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 6384,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/main.css",
+			"settings":
+			{
+				"buffer_size": 5003,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/colors.css",
+			"settings":
+			{
+				"buffer_size": 487,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 207.0,
+		"last_filter": "proj",
+		"selected_items":
+		[
+			[
+				"proj",
+				"Project: Save As"
+			],
+			[
+				"save ",
+				"Project: Save As"
+			],
+			[
+				"sidebar",
+				"View: Toggle Open Files in Side Bar"
+			],
+			[
+				"user",
+				"Preferences: Settings - User"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/haileym44/Sites/videnda",
+		"/Users/haileym44/Sites/videnda/css"
+	],
+	"file_history":
+	[
+		"/Users/haileym44/Sites/videnda/email-form/contact-form-handler.php",
+		"/Users/haileym44/Documents/Code/videnda/videnda.sublime-project",
+		"/private/etc/apache2/users/haileym44.conf",
+		"/Users/haileym44/Documents/Code/proFile/index.html",
+		"/Users/haileym44/Documents/Code/proFile/feedback_form/feedback_form.html",
+		"/Users/haileym44/Documents/Code/proFile/form.php",
+		"/Users/haileym44/Documents/Code/google-proxy-1.0/index.yaml",
+		"/Users/haileym44/Documents/proFile/css/colors.css",
+		"/Users/haileym44/Documents/proFile/css/main.css",
+		"/Users/haileym44/Documents/proFile/sample_page.html",
+		"/Users/haileym44/Documents/proFile/css/typed.css",
+		"/Users/haileym44/Documents/proFile/index.html",
+		"/Users/haileym44/Documents/proFile/css/profile.css",
+		"/Users/haileym44/Documents/sample.html",
+		"/Users/haileym44/Documents/proFile/JS/carousel.js",
+		"/Users/haileym44/Documents/proFile/JS/typed.js-master/dist/js/typed.js",
+		"/Users/haileym44/Documents/proFile/CSS/main.css",
+		"/Users/haileym44/Documents/proFile/CSS/carousel.css",
+		"/Users/haileym44/Documents/proFile/proFile 2/CSS/main.css",
+		"/Users/haileym44/Documents/proFile/CSS/typed.css",
+		"/Users/haileym44/Documents/proFile/JS/typed.js-master/index.htm",
+		"/Users/haileym44/Documents/proFile/JS/typed.js-master/dist/main.css",
+		"/Users/haileym44/Library/Application Support/Sublime Text 3/Packages/User/chrome.sublime-build",
+		"/Users/haileym44/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/haileym44/Documents/Ruby/decrypt.rb",
+		"/Users/haileym44/Downloads/decryption_brute_force.rb",
+		"/Users/haileym44/Documents/Javascript/tutorial.js",
+		"/Users/haileym44/Documents/Ruby/SE1/practice/hashes_practice.rb",
+		"/Users/haileym44/Documents/Ruby/caesar_cipher.rb",
+		"/Users/haileym44/Documents/Ruby/SE1/practice/array_hash_overview.rb",
+		"/Users/haileym44/Documents/Javascript/Tutorials/if:else.js",
+		"/Users/haileym44/Documents/Ruby/x.rb",
+		"/Users/haileym44/Documents/Ruby/new_bored/models/model.rb",
+		"/Users/haileym44/Documents/Ruby/new_bored/application_controller.rb",
+		"/Users/haileym44/Documents/Ruby/bored/application_controller.rb",
+		"/Users/haileym44/Documents/Ruby/bored/views/results.erb",
+		"/Users/haileym44/Documents/Ruby/bored/views/quiz.erb",
+		"/Users/haileym44/Documents/Ruby/bored/views/not_bored.erb",
+		"/Users/haileym44/Documents/Ruby/bored/models/model.rb",
+		"/Users/haileym44/Documents/Ruby/bored/views/money_and_outside.erb",
+		"/Users/haileym44/Documents/Ruby/bored/views/money_and_inside.erb",
+		"/Users/haileym44/Documents/Ruby/bored/views/index.erb",
+		"/Users/haileym44/Documents/Ruby/bored/views/cheap_and_outside.erb",
+		"/Users/haileym44/Documents/Ruby/bored/views/cheap_and_inside.erb"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"container",
+			"backspace",
+			"9",
+			"10"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6384,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15,
+								15
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/main.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5003,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4757,
+								4757
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 4607.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "css/colors.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 487,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								485,
+								485
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/chrome.sublime-build",
+	"project": "videnda.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Documents/Ruby/caesar_cipher.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 392.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 200.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

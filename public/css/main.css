@@ -1,0 +1,307 @@
+header {
+	background: #000;
+	background: #222;
+	padding: 10%;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.element, .typed-cursor {
+	color: #fff;
+	font-size: 300%;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	text-align: center;
+}
+#about {
+	background: #f2f2f2;
+	position: inherit;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+#section {
+	float: inherit;
+	position: relative;
+	overflow: hidden;
+	display: block;
+	border: 1px solid #ddd;
+	background: #fff;
+	box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.4);
+	z-index: 1;
+	margin-top: 5%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 5%;
+	padding: auto;
+}
+
+#section h1 {
+	position: relative;
+	margin: 2.5%;
+	text-align: center;
+	font-size: 350%;
+}
+
+#section p {
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+	text-align: left;
+	line-height: 150%;
+	font-size: 120%;
+	text-align: center;
+}
+
+#section h2 {
+	text-align: center;
+}
+
+#section a:hover {
+	text-decoration: none;
+	color: #607194;
+}
+
+/*#section h2:hover {
+	color: white;
+}*/
+
+#section h1, #section p, .spinny-thing h2, .spinny-thing p, #section h2 {
+	color: black;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+}
+
+.spinny-thing h2 {
+	text-align: center;
+}
+
+.spinny-thing p {
+	font-size: 120%;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.left, .right, .sr-only {
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.item {
+	height: 50%;
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+}
+
+.carousel-inner .item {
+  -webkit-transition-duration: 2s;
+  -moz-transition-duration: 2s;
+  -o-transition-duration: 2s;
+  transition-duration: 2s;
+}
+
+/*******
+ROWS
+*******/
+.sections {
+	background: #f2f2f2;
+	text-align:center;
+	height: 500px;
+}
+
+.caption-style-1 {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+.caption-style-1 li {
+	display: inline-block;
+	margin-right: 40px;
+	margin-left: 40px;
+	padding:0px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 100%;
+	margin-bottom: 50px;
+}
+.caption-style-1 li:hover .caption {
+	opacity: 1;
+}
+.caption-style-1 img {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	z-index: 4;
+	height: 230px;
+	width: 230px;
+}
+.caption-style-1 .caption {
+	cursor: pointer;
+	position: absolute;
+	opacity: 0;
+	-webkit-transition: all 0.45s ease-in-out;
+	-moz-transition: all 0.45s ease-in-out;
+	-o-transition: all 0.45s ease-in-out;
+	-ms-transition: all 0.45s ease-in-out;
+	transition: all 0.45s ease-in-out;
+}
+.caption-style-1 .blur {
+	background-color: rgba(0,0,0,0.65);
+	height: 230px;
+	width: 230px;
+	z-index: 5;
+	position: absolute;
+	border-radius: 100%;
+}
+.caption-style-1 .caption-text h1 {
+	text-transform: uppercase;
+	font-size: 1.4em;
+	padding-top: 30px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+}
+.caption-style-1 .caption-text {
+	z-index: 10;
+	color: #fff;
+	position: absolute;
+	width: 230px;
+	height: 230px;
+	text-align: center;
+	top: 50px;
+}
+ .i-am p {
+ 	background-color: white;
+  	color: black; 
+  	display: inline;
+  	padding: .8em;
+  	font-size: 1.6em;
+  	-webkit-box-decoration-break: clone;
+  	box-decoration-break: clone;
+  	box-shadow: 0px 3px 3px 0px rgba(50, 50, 50, 0.4);
+  	font-weight: 300;
+ }
+
+ .i-am li {
+ 	display: inline;
+ 	margin-left: 70px;
+ 	margin-right: 70px;
+ }
+
+/*******
+FORM
+*******/
+
+
+:before {
+  font-family: 'Ubuntu', sans-serif;
+input {
+  background-image: none;
+  border: none;
+  font-family: 'Ubuntu', sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: all .3s;
+}
+}
+.wrapper {
+	background: #f2f2f2;
+	/*margin-top: 100px;*/
+	padding-top: 100px;
+	padding-bottom: 75px;
+}
+.form {
+	clear: right;
+	position: relative;
+	overflow: hidden;
+	display: block;
+	/*border: 1px solid #dddddd;*/
+	background: #ffffff;
+	/*border-radius: 10px;*/
+	box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.1), 2px 2px 8px rgba(0, 0, 0, 0.1);
+	z-index: 1;
+ 	margin-top: 5px; 
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-bottom: 2.5%;
+	padding-bottom: 3%;
+}
+#login {
+	width: auto;
+	text-align: center;
+}
+
+#login h2 {
+	color: black;
+	font-size: 2.5em;
+	padding: 20px 26px;
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	color: #273A63
+}
+
+#login p {
+	color: black;
+	font-size: 1.4em;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	color: #273A63
+
+}
+
+#login form {
+	background: #fff;
+	border: none;
+	box-shadow: none;
+	padding-right: 30%;
+	padding-left: 30%;
+	width: 100%;
+	padding-right: auto;
+	padding-left: auto;
+
+
+}
+
+#login p:last-child {
+	margin-bottom: 0;
+}
+
+
+#login input[type="text"], #login input[type="text"] {
+	color: #607194;
+	font-family: 'Ubuntu', sans-serif;
+	padding: .5% 1.5%;
+	width: 100%;
+	margin-bottom: 10%;
+	margin-top: -20%;
+}
+
+#login input[type="submit"] {
+	background: #fff;
+	color: black;
+	display: block;
+	margin: 0 auto;
+	padding: 1% 0;
+	width: 30%;
+	margin-top: 5%;
+	border: none;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 1.4em;
+	color: #273A63
+}
+/*NEEDS WORK*/
+#login input[type="submit"]:hover {
+	color: #607194;
+}
+
+.label {
+	float:left;
+	line-height: 0px;
+}
+
+/* padding underneath
+make vertical*/
+

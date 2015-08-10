@@ -1,0 +1,34 @@
+/*typing animation background*/
+header {
+	background: #3B5998;
+}
+
+/*typing animation words*/
+.element, .typed-cursor {
+	/*color: #00D5D5;*/
+	color: white;
+}
+
+/*About Us paragraph*/
+#section h1, #section p, #section a {
+	/*color: #008A8A;*/
+	color: #273A63;
+}
+
+/*Name on hover*/
+.caption h1 {
+	color:#6395FF;
+}
+
+/*Background color on hover*/
+.caption-style-1 .blur {
+	background-color: rgba(58,58,58,0.65);
+}
+
+/*'I am' statements*/
+.sections p {
+	/*color: #008A8A;*/
+	color: #273A63;
+}
+
+

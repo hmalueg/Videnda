@@ -1,0 +1,168 @@
+/******************
+HOVER EFFECT
+******************/
+
+.media {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+}
+
+.media__image { 
+  display: block; 
+  border-radius: 100%;
+}
+
+.media__body {
+  background: rgba(51,68,85, 0.7);
+  bottom: 0;
+  color: #22cccc;
+  font-size: 1em;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 3.75em 3em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  right: 0;
+  border-radius: 100%;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.media__body:hover { opacity: 1; }
+
+.media__body:after,
+.media__body:before {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  bottom: 1em;
+  content: '';
+  left: 1em;
+  opacity: 0;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: 0.6s 0.2s;
+  transition: 0.6s 0.2s;
+}
+
+.media__body:before {
+  border-bottom: none;
+  border-top: none;
+  left: 2em;
+  right: 2em;
+}
+
+.media__body:after {
+  border-left: none;
+  border-right: none;
+  bottom: 2em;
+  top: 2em;
+}
+
+.media__body:hover:after,
+.media__body:hover:before {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+.media__body h2 { margin-top: 0; }
+
+.media__body p { margin-bottom: 1.5em; }
+
+/************
+BODY
+************/
+#name, #about, #passions, #achievements {
+  font-weight: 300;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#about {
+  font-size: 200%;
+}
+
+#name {
+  font-size: 400%;
+}
+
+
+#passions, #achievements {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#passions li, #achievements li {
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+}
+
+#image {
+  width: 350px;
+  height: 350px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+
+#list {
+  text-align: center;
+}
+
+body {
+  background: white;
+}
+
+#passions {
+  margin-top: 20px;
+  font-size: 150%;
+  margin-bottom: 20px;
+}
+
+#achievements {
+  font-size: 150%;
+}
+
+#intro {
+  height:400px;
+  /*background-image: url(../images/mountains.jpg);*/
+  background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(../images/mountain.jpg);
+  background-size: 1350px 400px;
+  background-repeat: no-repeat;
+  margin-bottom: 100px;
+}
+
+#name, #about {
+  color: white;
+  margin-top: -10px;
+  padding: 100px 250px 0 250px;
+}
+
+#about {
+  padding-top: 50px;
+}
+
+#h2 {
+  color: black;
+  font-size: 2em;
+}
+
+#more {
+  text-decoration: none;
+  color: black;
+  margin-top: 20px;
+}
